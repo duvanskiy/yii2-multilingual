@@ -73,6 +73,13 @@ In your `web.php` config add the following components:
             'path' => __DIR__ . '/data',
         ],
 ```
+do not forget to add the bootstrap => multilingual in file `web.php` for example
+    
+    'basePath' => dirname(__DIR__),
+add this
+    'bootstrap' => ['multilingual'],
+    
+    'components' => [
 
 ### Creating translatable ActiveRecord
 
